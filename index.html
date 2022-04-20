@@ -49,7 +49,7 @@
         <a-asset-items
           response-type="arraybuffer"
           id="robot"
-          src="/assets/scene.gltf"
+          src="/assets/watch.gltf"
         ></a-asset-items>
 
         <img id="map-point" src="/assets/pattern-love.png" />
@@ -65,7 +65,11 @@
         preset="custom"
         video-vidhandler
       >
-        <a-entity gltf-model="#robot" scale="2 1" position="0 0 0"></a-entity>
+        <a-entity
+          gltf-model="#robot"
+          scale="25 25 25"
+          position="0 0 0"
+        ></a-entity>
         <!-- <a-plane
           scale="2 1"
           position="0 0 0"
